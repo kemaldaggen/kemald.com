@@ -39,8 +39,8 @@ Deciding when to use Cloud Run often involves understanding its limitations and 
 Cloud Run uses a pay-per-use model, which charges based on CPU, memory, and request count. The free tier includes:
 
 - 2 million requests per month
-- 360,000 GB-seconds of memory
-- 180,000 vCPU-seconds
+- 375,000 GB-seconds of memory
+- 200,000 vCPU-seconds
 
 Costs increase with higher usage and more powerful instances. The most critical cost-related configurations are:
 
