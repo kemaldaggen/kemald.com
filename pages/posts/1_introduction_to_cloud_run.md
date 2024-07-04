@@ -47,7 +47,7 @@ Costs increase with higher usage and more powerful instances. The most critical 
 1. **CPU Allocation**: By default, CPU is only allocated during request handling. If your application has background jobs (e.g., using setTimeout in JavaScript), they will not run when no requests are being processed.
 2. **Minimum Instances**: Setting the minimum number of instances to zero can save costs, but it may lead to cold starts where requests experience delays while the service scales up from zero.
 
-To optimize costs, you need to balance between minimizing cold starts and reducing idle resource costs. For instance, setting the minimum instance count to one can avoid cold starts but will incur a minimum cost of around $50 per month per instance.
+To optimize costs, you need to balance between minimizing cold starts and reducing idle resource costs. For instance, setting the minimum instance count to one can avoid cold starts but will incur a minimum cost of around $50 ($8 Per month if you allocate CPU only during requests) per month per instance.
 
 Here is a breakdown of the costs based on different configurations:
 
